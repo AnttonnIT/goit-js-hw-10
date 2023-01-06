@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  list-style: none;
 }
 
 body {
@@ -10,11 +11,26 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  font-size: 20px;
 }
 
 #search-box {
   font: inherit;
   padding: 8px;
-  max-width: 320px;
+  width: 320px;
   margin-bottom: 16px;
+}
+h1,
+h4 {
+  margin: 0;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
